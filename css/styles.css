@@ -253,7 +253,7 @@
 }
 
 .navbar-toggler.collapsed .toggler-icon {
-    background: #705642;
+    background: #D4AF37;
 }
 
 .linktree-div:hover>a>p {
@@ -305,6 +305,7 @@
 
 .motto-div {
     padding-top: 3rem;
+    padding-bottom: 3rem;
     text-align: center;
     color: white;
 }
@@ -339,4 +340,11 @@
   font-size: 3rem;
   font-weight: 700;
   color: white;
+}
+
+.card-img-top:hover {
+  filter: brightness(75%);
+
+  transition: transform 0.3s ease, filter 0.3s ease;
+
 }
